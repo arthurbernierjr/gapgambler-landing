@@ -942,6 +942,18 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .logo-img{
     height: 2.5rem
   }
+  .content {
+    min-height: 812px;
+  }
+  .footer {
+    position: absolute;
+  }
+  .navbar {
+    display: none;
+  }
+  .main .logo {
+    margin-top: 4rem;
+  }
 }
 @media (max-width:374px){
  .content {
