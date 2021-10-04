@@ -34,7 +34,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
   </div><!-- /.container -->
 </nav>
-<div class="main" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.invest19.com%2Fblog%2Fwp-content%2Fuploads%2F2020%2F01%2FStock-Investing-is-no-Different-from-Entrepreneurship-1.jpg&f=1&nofb=1')">
+<div class="main" style="background-image: url('/images/main-bg.jpg')">
 
 <!--    Change the image source 'images/rick.jpg' with your favourite image.     -->
 
@@ -49,17 +49,18 @@
 <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
 
         <div class="content">
-            <h4 class="motto">Gap Gambler is a baby normcore cloud bread air plant sriracha fugiat, copper mug salvia. Pour-over cupidatat in cliche cillum. Drinking vinegar banh mi pour-over put a bird on it cred meh enim consectetur typewriter woke fugiat hexagon. Ennui affogato VHS retro, crucifix asymmetrical in mumblecore four dollar toast.</h4>
+            <h4 class="motto">Here For The Tournament?
+Get In Line.</h4>
             <div class="subscribe">
                 <h5 class="info-text">
                     Join the waiting list for the beta. We keep you posted.
                 </h5>
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
-                        <form class="form-inline" role="form">
+                        <form id="main-form" class="form-inline" role="form">
                           <div class="form-group">
                             <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                            <input type="email" class="form-control transparent" placeholder="Your email here...">
+                            <input type="email" id="email" class="form-control transparent" placeholder="Your email here...">
                           </div>
                           <button type="submit" class="btn btn-info btn-fill">Notify Me</button>
                         </form>
@@ -69,10 +70,13 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" style="background-color: rgba(255,255,255, 0.1)";>
       <div class="container">
 				<div class="col-md-12 col-6">
-					<div style="text-align: center; letter-spacing: .25rem;">
+					<h1 style="text-align: center; letter-spacing: .25rem;">
+						<img class="logo-img" src="/images/gapgamblerlogo.png" alt="Gap Gambler"/>
+					</h1>
+					<div style="text-align: center; letter-spacing: .25rem; ">
 						Made with <i class="fa fa-heart heart"></i> by <a href="https://www.arthurbernierjr.com">Arthur"Big Poppa Code"Bernier Jr</a>.
 					</div>
 	 			</div>
@@ -82,4 +86,5 @@
 </body>
     <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/process-waitlist.js" type="text/javascript"></script>
 </html>
