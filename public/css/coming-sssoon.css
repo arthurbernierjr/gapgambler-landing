@@ -943,3 +943,17 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     height: 2.5rem
   }
 }
+@media (max-width:375px){
+ .content {
+   height: 100vh;
+ }
+ .footer {
+   position: absolute;
+ }
+ .navbar {
+   display: none;
+ }
+ .main .logo {
+   margin-top: 3rem;
+ }
+}
