@@ -943,7 +943,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     height: 2.5rem
   }
 }
-@media (max-width:375px){
+@media (max-width:374.999999999px){
  .content {
    height: 100vh;
  }
