@@ -956,7 +956,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   }
 }
 @media (max-width:374px){
- .content {
+ .main {
    height: 100vh;
  }
  .footer {
