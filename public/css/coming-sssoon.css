@@ -16,6 +16,9 @@
 body{
 
 }
+/* .container {
+  background-color: rgba(255,255,255, 0.1)
+} */
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
@@ -684,7 +687,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 .cover.black{
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(125,125,125, 0.1);
 }
 .cover.blue{
     background-color: rgba(5, 31, 60, 0.6);
@@ -727,6 +730,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .main .logo{
     color: #FFFFFF;
+    /* color: black; */
     font-size: 56px;
     font-weight: 300;
     position: relative;
@@ -748,11 +752,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     min-height: 1rem;
 }
 .main .motto, .main .subscribe .info-text{
-    font-size: 28px;
+    font-size: 4rem;
+    /* color: black; */
     color: #FFFFFF;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-shadow: 4px 8px 16px rgba(0, 0, 0, 0.33);
     text-align: center;
     margin-top: 50px;
+    font-weight: 600;
 
 }
 .main .subscribe .info-text{
