@@ -942,8 +942,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .logo-img{
     height: 2.5rem
   }
-  .content {
-    min-height: 812px;
+  .main {
+    height: 100vh;
   }
   .footer {
     position: absolute;
